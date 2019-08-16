@@ -1,0 +1,21 @@
+{
+  "name": "thejamespinkerton.com",
+  "homepage": "thejamespinkerton.com",
+  "authors": [
+    "Brad Ware bwarenohs@gmail.com"
+  ],
+  "description": "James Pinkerton personal website",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}

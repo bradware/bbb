@@ -16,32 +16,38 @@
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/bonsai.png">
+    <link rel="icon" type="image/png" href="assets/cereal.jpg">
   </head>
   <body class="container-fluid text-center">
-    <header class="row panel-heading">
-      <h1>Help Me Help You</h1>
-      <i>Security of this website brought to you by <a href="//www.ftc.gov/enforcement/cases-proceedings/refunds/equifax-data-breach-settlement" target="_blank">Equifax ©</a></i>
+    <header>
+      <div class="row">
+        <h1>Help Me Help You</h1>
+        <i>Security of this website brought to you by <a href="//www.ftc.gov/enforcement/cases-proceedings/refunds/equifax-data-breach-settlement" target="_blank">Equifax</a>.</i>
+      </div>
+      <div class="row">
+        <img src="assets/bonsai.png" id="bonsai">
+        <img src="assets/mike.png" id="mike">
+      </div>
     </header>
   
-    <main class="content">
-      <div class="row" style="margin-bottom: 20px">
+    <main>
+      <div class="row">
         <h2>Step 1</h2>
         
-        <form class="row form-inline" action="">
+        <form class="row form-inline">
           <div class="form-group">
             <label type="text">SSN:</label>
             <input type="text" class="form-control" id="ssn" placeholder="trust me it's ok">
           </div>
           
-          <button type="button" class="btn btn-danger" data-toggle="modal" data-target=".modal" style="margin-left: 10px">PRESS ME</button>
+          <button id="ssn-btn" type="button" class="btn btn-danger" data-toggle="modal" data-target=".modal">PRESS ME</button>
           
           <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                  <h4 class="modal-title" id="myModalLabel">Haha</h4>
+                  <h3 class="modal-title" id="myModalLabel">HAHA</h3>
                 </div>
                 <div class="modal-body">Shut down your computer now before you let me in...</div>
                 <div class="modal-footer">
@@ -53,22 +59,22 @@
         </form>
       </div>
 
-      <div class="row" style="margin-bottom: 20px">
+      <div class="row">
         <h2>Step 2</h2>
 
-        <iframe width="400" height="315" src="https://www.youtube.com/embed/cpugqz-Y8-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe id="video" src="https://www.youtube.com/embed/cpugqz-Y8-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
 
-      <div class="row" style="margin-bottom: 20px">
+      <div class="row">
         <h2>Step 3</h2>
 
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScKo67SKt2Coo16oTd_f9tLFgEafXeWchStgyMfXPpsumWZrg/viewform?embedded=true" width="400" height="1898" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <iframe id="survey" src="https://docs.google.com/forms/d/e/1FAIpQLScKo67SKt2Coo16oTd_f9tLFgEafXeWchStgyMfXPpsumWZrg/viewform?embedded=true"  frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
       </div>
     </main>
     
     <footer class="row panel-footer">
       <div class="footer-text">
-        © 2019 <a href="" target="_blank">Bread & Bonsai</a>. 
+        © 2019 <a href="">Bonsai & Bollywood</a>. 
         <br>I now own all rights to your stolen <b>identity</b>.
       </div>
     </footer>

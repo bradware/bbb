@@ -66,6 +66,10 @@ label {
 
 /* Mobile */
 @media screen and (max-width: 450px) {
+  header {
+    padding-left: 20px;
+    padding-right: 20px;
+  } 
   #bonsai {
     width: 150px;
     height: 150px;
@@ -92,6 +96,10 @@ label {
 
 /* Mobile */
 @media screen and (max-width: 350px) {
+  header {
+    padding-left: 10px;
+    padding-right: 10px;
+  } 
   #bonsai {
     width: 100px;
     height: 100px;

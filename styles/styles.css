@@ -13,6 +13,7 @@ body {
 }
 a, a:hover {
  color: red;
+ text-decoration: underline;
 }
 h1, h2, h3, h4, h5, h6, p, i, form {
  color: white;
@@ -20,11 +21,11 @@ h1, h2, h3, h4, h5, h6, p, i, form {
 label {
   font-size: 18px;
 }
+.red {
+  color: red;
+}
 .row {
   margin-bottom: 20px;
-}
-.modal, h3 {
-  color: black;
 }
 #bonsai {
   width: 200px;
@@ -36,6 +37,25 @@ label {
 }
 #ssn-btn {
   margin-left: 10px;
+}
+#ssn-starting {
+  display: none;
+}
+#ssn-finished {
+  display: none;
+}
+#spinner {
+  margin: auto;
+  border: 10px solid #f3f3f3; /* Light grey */
+  border-top: 10px solid red;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 #video {
   width: 600px;
@@ -78,6 +98,14 @@ label {
     width: 150px;
     height: 130px;
   }
+  #ssn-starting {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  #ssn-finished {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
   #video {
     width: 350px;
     height: 200px;
@@ -107,6 +135,14 @@ label {
   #mike {
     width: 100px;
     height: 90px;
+  }
+  #ssn-starting {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  #ssn-finished {
+    padding-left: 25px;
+    padding-right: 25px;
   }
   #video {
     width: 300px;

@@ -63,7 +63,7 @@ label {
 }
 #survey {
   width: 640px;
-  height: 1811px;
+  height: 2300px;
 }
 
 /*
@@ -112,7 +112,7 @@ label {
   }
   #survey {
     width: 350px;
-    height: 2180px;
+    height: 2380px;
   }
   .form-inline {
     display: inline-block;
@@ -150,7 +150,7 @@ label {
   }
   #survey {
     width: 300px;
-    height: 2420px;
+    height: 2580px;
   }
   .form-inline {
     display: inline-block;
